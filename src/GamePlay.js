@@ -10,7 +10,7 @@ GamePlayManager = {
         me.load.image('background',"assets/images/fondo1.png");
 		me.load.spritesheet("crow","assets/images/crow.png",97,120);
 		/*me.load.spritesheet("man","assets/images/man.png",69,174);*/
-		me.load.spritesheet("man","assets/images/girl2.png",200,301,8);
+		me.load.spritesheet("man","assets/images/girl2.png",205,301,8);
 		
     },
     create: function() {
