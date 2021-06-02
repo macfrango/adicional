@@ -10,7 +10,7 @@ GamePlayManager = {
         me.load.image('background',"assets/images/fondo1.png");
 		me.load.spritesheet("crow","assets/images/crow.png",97,120);
 		/*me.load.spritesheet("man","assets/images/man.png",69,174);*/
-		me.load.spritesheet("man","assets/images/girl2.png",198,301,8);
+		me.load.spritesheet("man","assets/images/girl2.png",200,301,8);
 		
     },
     create: function() {
@@ -23,7 +23,7 @@ GamePlayManager = {
 		me.crow.animations.play("right");
 		
 		me.man=me.game.add.sprite(100,350,"man");
-		me.man.animations.add("right",[0,1,2,3,4,],1,true);
+		me.man.animations.add("right",[0,1,2,3,],5,true);
 		/*me.man.animations.add("left",[15,14,13,12,11,10,9,8],10,true);*/
 		me.game.cursores=me.input.keyboard.createCursorKeys();
 		me.game.physics.startSystem(Phaser.Physics.ARCADE);
